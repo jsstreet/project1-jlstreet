@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html>
-    <head>
-<title>Julia Street</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<link rel="stylesheet" type="text/css" href="style.css"></link>
+<head>
+    <title>Julia Street</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <link id="theme_css_sheet" rel="stylesheet" type="text/css" href="style.css">
+    <script src="functs.js" defer></script>
 </head>
 <body>
     <header class="selection-bar">
-		<button class="theme-button">
-			<a href="service2.html">
-				<img src="images/theme_icon.png" alt="Theme" clas="theme-button">
-			</a>
+		<button class="theme-button" onclick="flip_theme()">
+				<img src="images/theme_icon.png" alt="Theme" class="theme-icon">
 		</button>
          <span class="top-name">Julia Street</span>
         <nav class="selection-bar-buttons">
@@ -23,7 +22,7 @@
             <a href="qualifications.html" class="selection-buttons">
                 <img src="images/qualifications_icon.png" alt="" class="nav-icon">
             </a>
-            <a href="service.html" class="selection-buttons">
+            <a href="service.html" class="selection-buttons active">
                 <img src="images/service_icon.png" alt="" class="nav-icon">
             </a>
             <a href="genai.html" class="selection-buttons">
@@ -33,23 +32,24 @@
     </header>
     <main class="page-content">
         <h1 class="page-title">Service : Giving Back to the Community</h1>
-        <section class="service-text">
-            <p>
-                Giving back to my community through acts of service has been an important part of my life, and volunteering has always been my favorite way to invest back into my city. A few years ago, my friends and I organized and ran a community service club that coordinated volunteer opportunities around the San Antonio area for ourselves, our friends, and finally expanded to include many other club members. Through this experience, we regularly volunteered at food banks and animal shelters, and also supported retirement homes, local museums, and city-wide trash cleanup efforts across all our public parks. Organizing and participating in these activities reinforced my values of teamwork, responsibility, and community involvement. Moving forward, I plan to continue volunteering in whatever city I end up in, especially in animal shelters, and to become involved with another service organization that allows me to get to know my community and neighbors while giving back to the city I live in.
-            </p>
+        <section class="service-columns">
+            <section class="service-text">
+                <p>
+                    Giving back to my community through acts of service has been an important part of my life, and volunteering has always been my favorite way to invest back into my city. A few years ago, my friends and I organized and ran a community service club that coordinated volunteer opportunities around the San Antonio area for ourselves, our friends, and finally expanded to include many other club members. Through this experience, we regularly volunteered at food banks and animal shelters, and also supported retirement homes, local museums, and city-wide trash cleanup efforts across all our public parks. Organizing and participating in these activities reinforced my values of teamwork, responsibility, and community involvement. Moving forward, I plan to continue volunteering in whatever city I end up in, especially in animal shelters, and to become involved with another service organization that allows me to get to know my community and neighbors while giving back to the city I live in.
+                </p>
+            </section>
+            <section class="service-images">
+                <img src="images/service_1.jpg" alt="Service Photo" class="service-img">
+                <img src="images/service_2.jpg" alt="Service Photo" class="service-img">
+                <img src="images/service_3.jpg" alt="Service Photo" class="service-img">
+                <div class="service-links">
+                    <a href="https://www.forbes.com/sites/nextavenue/2015/03/19/5-surprising-benefits-of-volunteering/" class="project-btn">Volunteering Pros</a>
+                    <a href="https://www.findhelp.org/food/food-pantry--college-station-tx" class="project-btn">Local Food Pantry</a>
+                    <a href="https://aggielandhumane.org/volunteer/" class="project-btn">Local Humane Society</a>
+                </div>
+            </section>
         </section>
-		<div class="service-links">
-            <a href="https://www.forbes.com/sites/nextavenue/2015/03/19/5-surprising-benefits-of-volunteering/" class="project-btn">Volunteering Pros</a>
-            <a href="https://www.findhelp.org/food/food-pantry--college-station-tx" class="project-btn">Local Food Pantry</a>
-            <a href="https://aggielandhumane.org/volunteer/" class="project-btn">Local Humane Society</a>
-        </div>
-        <section class="service-images">
-            <img src="images/service_1.jpg" alt="Service Photo" class="service-img">
-            <img src="images/service_2.jpg" alt="Service Photo" class="service-img">
-            <img src="images/service_3.jpg" alt="Service Photo" class="service-img">
-        </section>
+       
     </main>
 </body>
-
 </html>
-

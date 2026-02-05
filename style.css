@@ -39,7 +39,6 @@
   height: 30px;
   top: 10px;
   left: 10px;
-  padding: 4px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -49,7 +48,7 @@
   overflow: hidden;
 }
 
-.theme-button img {
+.theme-icon {
   width: 30px;
   height: 30px;
   object-fit: contain;
@@ -338,6 +337,6 @@
   width: 200px;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 30px;
   margin-bottom: 50px;
 }
